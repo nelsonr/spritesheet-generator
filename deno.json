@@ -3,6 +3,11 @@
         "start": "deno run -A --watch=static/,routes/ dev.ts"
     },
     "importMap": "./import_map.json",
+    "lint": {
+        "files": {
+            "exclude": ["node_modules/"]
+        }
+    },
     "fmt": {
         "options": {
             "indentWidth": 4,
